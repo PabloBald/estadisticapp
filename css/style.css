@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background:linear-gradient( white 1%,rgb(37, 37, 37));
+    min-height: 100vh;
+}
+
+.header{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h5{
+    color:white;
+    text-shadow: 1px 1px black;
+}
+.inputs{
+    color:white;
+    text-shadow: 1px 1px black;
+    
+}
+.inputs label{
+    font-size: 1.8rem;
+}
+
+.inputs input{
+    width: 60%;
+}
+
+.tabla{
+    text-align: center;
+}
