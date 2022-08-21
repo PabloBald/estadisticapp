@@ -18,7 +18,6 @@
 			<h1>Creador de tablas</h1>
 			<h2>Estadistica</h2>
 		</div>
-      
 		<div class="container">
             <hr>
 			<div class="inputs">
@@ -27,12 +26,24 @@
                 <br>
 				<label>Datos:</label>
 				<input class="form-group" id="datos" type="text" />
-                <button class="btn btn-dark" id="sendButton">Enviar</button>
+				<button class="btn btn-dark" id="sendButton">Enviar</button>
+				<br>
+					<label class="form-check-label" for="flexCheckChecked">
+						Resolver por intervalos
+					  </label>
+					<input class="form-check" id="rInter" type="checkbox" value="">
+					
+			
 			</div>
             <br>
             <br>
             <div>
-                <h5 class="total">Cantidad de datos:</h5>
+                <h4 class="total">Cantidad de datos(n):</h4>
+				<div class="inter-props">
+					<h4 id="recorrido"></h4>
+					<h4 id="intervalos"></h4>
+					<h4 id="amplitud"></h4>
+				</div>
             </div>
             <div class="tabla">
                 <table class="table table-light table-striped">
@@ -49,8 +60,9 @@
                     </tbody>
                 </table>
             </div>
+			
 		</div>
-
+		
         
 
 		<script src="./js/script.js" />

@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container h5{
+.container h4{
     color:white;
     text-shadow: 1px 1px black;
 }
@@ -32,7 +32,16 @@ body{
 .inputs input{
     width: 60%;
 }
+#rInter{
+    display: inline-block;
+    width: 10vw;
+}
 
 .tabla{
     text-align: center;
+}
+
+.inter-props{
+    color: white;
+    text-shadow: 1px 1px black;
 }
