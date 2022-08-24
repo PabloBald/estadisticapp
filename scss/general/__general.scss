@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    color: rgba(247, 40, 40, 0.849);
+    font-size: 5rem;
+}
+
+.header h2 {
+    color: rgba(245, 34, 34, 0.755);
+    font-size: 3rem;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input:active{
+    border-color: red;
+    
+}
+
+input:hover{
+    transform: scale(1.03);
+}
+
+.boton:hover{
+    background-color: red;
+}

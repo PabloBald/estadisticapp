@@ -1,47 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    
-    background:linear-gradient( white 1%,rgb(37, 37, 37));
-    min-height: 100vh;
+.tabla {
+  text-align: center;
 }
 
-.header{
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.container h4{
-    color:white;
-    text-shadow: 1px 1px black;
-}
-.inputs{
-    color:white;
-    text-shadow: 1px 1px black;
-    
-}
-.inputs label{
-    font-size: 1.8rem;
+.container h4 {
+  color: white;
+  text-shadow: 1px 1px rgb(236, 36, 36);
 }
 
-.inputs input{
-    width: 60%;
-}
-#rInter{
-    display: inline-block;
-    width: 10vw;
+.inputs {
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
-.tabla{
-    text-align: center;
+.inputs label {
+  font-size: 1.8rem;
 }
 
-.inter-props{
-    color: white;
-    text-shadow: 1px 1px black;
+.inputs input {
+  width: 60%;
 }
+
+#rInter {
+  display: inline-block;
+  width: 10vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  color: rgba(247, 40, 40, 0.849);
+  font-size: 5rem;
+}
+
+.header h2 {
+  color: rgba(245, 34, 34, 0.755);
+  font-size: 3rem;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input:active {
+  border-color: red;
+}
+
+input:hover {
+  transform: scale(1.03);
+}
+
+.boton:hover {
+  background-color: red;
+}
+
+body {
+  background: linear-gradient(0deg, rgb(21, 22, 22) 0%, rgb(22, 26, 210) 56%, rgb(21, 23, 61) 83%);
+  min-height: 100vh;
+}
+
+.inter-props {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+/*# sourceMappingURL=style.css.map */
