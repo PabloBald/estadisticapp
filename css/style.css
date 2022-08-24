@@ -49,16 +49,22 @@
   align-items: center;
 }
 
-input:active {
+.entrada input:hover {
   border-color: red;
+  border-width: 5px;
 }
-
-input:hover {
-  transform: scale(1.03);
+.entrada input:hover:active {
+  border-color: red;
 }
 
 .boton:hover {
   background-color: red;
+}
+
+.pie {
+  font-size: 1.5rem;
+  color: red;
+  text-align: end;
 }
 
 body {
