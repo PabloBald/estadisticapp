@@ -1,75 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-			crossorigin="anonymous"
-		/>
-		<title>Document</title>
-	</head>
-	<body>
-		<div class="header">
-			<h1>Creador de tablas</h1>
-			<h2>Estadistica</h2>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<title>Document</title>
+</head>
+
+<body>
+
+	<header>
+		<div>
+			<ul class="nav justify-content-center bg-danger fs-2 ">
+				<li class="nav-item">
+					<a class="nav-link active text-white-50 bg-dark" aria-current="page" href="#">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled text-white-50 bg-dark" href="#">Disabled</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled text-white-50 bg-dark" href="#">Disabled</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled text-white-50 bg-dark">Disabled</a>
+				</li>
+			</ul>
 		</div>
-		<div class="container">
-            <hr>
-			<div class="inputs">
-                
-                <h3>Ingresar los datos</h3>
-                <br>
-				<label>Datos:</label>
-				<input class="form-group" id="datos" type="text" />
-				<button class="btn btn-dark" id="sendButton">Enviar</button>
-				<br>
-					<label class="form-check-label" for="flexCheckChecked">
-						Resolver por intervalos
-					  </label>
-					<input class="form-check" id="rInter" type="checkbox" value="">
-					
-			
+
+	</header>
+	<hr>
+	<main>
+		<div>
+			<div class="header">
+				<h1>Creador de tablas</h1>
+				<h2>Estadistica</h2>
 			</div>
-            <br>
-            <br>
-            <div>
-                <h4 class="total">Cantidad de datos(n):</h4>
+		</div>
+		<div class="container-fluid">
+			<hr>
+			<div class="inputs">
+
+				<h3>Ingresar los datos</h3>
+				<br>
+				<label>Datos:</label>
+				<input class="form-group border entrada" id="datos" type="text" />
+				<button class="btn btn-dark boton" id="sendButton">Enviar</button>
+				<br>
+				<label class="form-check-label" for="flexCheckChecked">
+					Resolver por intervalos
+				</label>
+				<input class="form-check" id="rInter" type="checkbox" value="">
+
+
+			</div>
+			<br>
+			<br>
+			<div>
+				<h4 class="total">Cantidad de datos(n):</h4>
 				<div class="inter-props">
 					<h4 id="recorrido"></h4>
 					<h4 id="intervalos"></h4>
 					<h4 id="amplitud"></h4>
 				</div>
-            </div>
-            <div class="tabla">
-                <table class="table table-light table-striped">
-                    <thead>
-                        <th>Dato</th>
-                        <th>fa</th>
-                        <th>fr</th>
-                        <th>frp</th>
-                        <th>Fa</th>
-                        <th>Fa%</th>
-                    </thead>
-                    <tbody>
+			</div>
+			<div class="tabla">
+				<table class="table table-light table-striped">
+					<thead>
+						<th>Dato</th>
+						<th>fa</th>
+						<th>fr</th>
+						<th>frp</th>
+						<th>Fa</th>
+						<th>Fa%</th>
+					</thead>
+					<tbody>
 
-                    </tbody>
-                </table>
-            </div>
-			
+					</tbody>
+				</table>
+			</div>
+
 		</div>
-		
-        
+	</main>
+	<footer class="pie container-fluid">
+		<p>Created by: Bald Pablo Designer by: Lopez Sebastian</p>
+	</footer>
 
-		<script src="./js/script.js" />
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-			crossorigin="anonymous"
-		></script>
-	</body>
+
+	<script src="./js/script.js" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

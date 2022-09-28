@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    color: rgba(247, 40, 40, 0.849);
+    font-size: 5rem;
+}
+
+.header h2 {
+    color: rgba(245, 34, 34, 0.755);
+    font-size: 3rem;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.entrada input:hover {
+    border-color: red;
+    border-width: 5px;
+    &:active {
+        border-color: red;
+    }
+}
+
+.boton:hover {
+    background-color: red;
+}
+
+.pie {
+    font-size: 1.5rem;
+    color: red;
+    text-align: end;
+}
